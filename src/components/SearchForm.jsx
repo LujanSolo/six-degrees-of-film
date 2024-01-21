@@ -25,4 +25,4 @@ const SearchForm = ({ onSearch }) => {
   );
 };
 
-SearchForm;
+export default SearchForm;

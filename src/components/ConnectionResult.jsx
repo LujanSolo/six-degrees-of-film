@@ -1,3 +1,4 @@
+// src/components/ConnectionResult.js
 const ConnectionResult = ({ result }) => {
   return (
     <div>
@@ -5,7 +6,7 @@ const ConnectionResult = ({ result }) => {
       {result ? (
         <p>{result}</p>
       ) : (
-        <p>No connection found...</p>
+        <p>No connection found. Try different names!</p>
       )}
     </div>
   );
